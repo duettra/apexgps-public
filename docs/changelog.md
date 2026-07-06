@@ -4,6 +4,13 @@ User-visible changes, newest first. For internal refactoring / version-bump-only
 
 ---
 
+## 1.46.0 — July 7, 2026 — Easier tapping and clearer track names
+
+- **Tap your location arrow to share your position — even next to a waypoint or track.** The blue location arrow now takes priority for taps, so you no longer have to zoom in to avoid accidentally tapping a nearby waypoint or track first.
+- **Long track names are fully readable.** On the track screen, a long name now scrolls across so you can read the whole thing, and when you rename a track the field opens at the *end* of the name — so you can fix long names without deleting the visible part first.
+
+---
+
 ## 1.45.0 — June 30, 2026 — Weather trends at your timescale
 
 - **The pressure and humidity graphs now follow your forecast range.** When you switch the weather forecast between 24h, 8h and 2h, the pressure and humidity trend graphs beneath it redraw to match the same window — so you read the recent trend at the timescale you care about. The 2-hour view uses fine 15-minute data where it's available.
