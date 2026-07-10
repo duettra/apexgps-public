@@ -75,7 +75,10 @@ Someone sends you a `.gpx` file? Tap it in the chat / email / file manager → t
 Tap a track line on the map. A panel slides up from the bottom with:
 
 - Track name + distance.
-- **Elevation profile** — a little chart. Drag your finger across it to scrub along the track; a crosshair shows where on the map that point is.
+- **Elevation profile** — an interactive chart:
+  - **Drag one finger** across it to scrub along the track; a crosshair shows where on the map that point is.
+  - **Pinch** with two fingers to zoom into a section (slide both fingers together to pan); zooming re-scales the chart to that section so gentle climbs reveal their detail. **Double-tap** to zoom back out to the whole track. Your zoom level is kept if you minimise and re-open the panel.
+  - **Tap the distance figure** (marked with a **⇄**) to switch the bottom axis between **distance** and **elapsed time** — shown for tracks recorded with time information.
 - **Ascent / descent** totals.
 - **Edit** button → opens the track detail screen.
 - **Share** button → exports the track as a `.gpx` file you can send to anyone.
