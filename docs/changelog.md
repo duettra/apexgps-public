@@ -4,6 +4,12 @@ User-visible changes, newest first. For internal refactoring / version-bump-only
 
 ---
 
+## 1.47.1 — August 1, 2026 — Built for Android 16
+
+- **Compatibility update.** ApexGPS is now built for Android 16. Nothing changes in how the app works — this keeps it fully supported on the newest version of Android and on future devices.
+
+---
+
 ## 1.47.0 — July 10, 2026 — Explore your elevation profile
 
 - **Pinch to zoom into the elevation chart.** Tap a track on the map (or open a track's detail screen) and the elevation profile is now interactive: **pinch** with two fingers to zoom into a section, **drag one finger** across it to scrub — the marker moves along the track on the map and the readout shows the elevation at that point — and **double-tap** to zoom back out to the whole track. Zooming in re-scales the chart to that section, so gentle climbs that look flat across the whole track show their detail.
