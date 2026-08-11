@@ -4,6 +4,27 @@ Für Nutzer sichtbare Änderungen, neueste zuerst. Für internes Refactoring / r
 
 ---
 
+## 1.47.1 — 1. August 2026 — Für Android 16 gebaut
+
+- **Kompatibilitäts-Update.** ApexGPS wird jetzt für Android 16 gebaut. An der Funktionsweise der App ändert sich nichts — so bleibt sie auf der neuesten Android-Version und auf künftigen Geräten voll unterstützt.
+
+---
+
+## 1.47.0 — 10. Juli 2026 — Entdecke dein Höhenprofil
+
+- **Zieh das Höhendiagramm auf, um hineinzuzoomen.** Tippe einen Track auf der Karte an (oder öffne den Track-Bildschirm) — das Höhenprofil ist jetzt interaktiv: **zieh mit zwei Fingern auf**, um in einen Abschnitt zu zoomen, **wisch mit einem Finger** darüber, um ihn abzufahren — die Markierung wandert auf der Karte am Track entlang und die Anzeige zeigt die Höhe an dieser Stelle — und **tippe doppelt**, um wieder auf den ganzen Track herauszuzoomen. Beim Hineinzoomen skaliert sich das Diagramm auf diesen Abschnitt, sodass sanfte Anstiege, die über den ganzen Track flach wirken, ihre Details zeigen.
+- **Schalte das Diagramm zwischen Distanz und Zeit um.** Tippe auf die Distanzangabe (mit einem **⇄** markiert), um die untere Achse des Diagramms von der Distanz auf die **verstrichene Zeit** umzustellen — und zurück. Das erscheint bei Tracks, die mit Zeitangaben aufgezeichnet wurden.
+- Deine Zoomstufe bleibt jetzt erhalten, wenn du das Track-Panel minimierst und wieder öffnest.
+
+---
+
+## 1.46.0 — 7. Juli 2026 — Leichteres Tippen und klarere Track-Namen
+
+- **Tippe auf deinen Standortpfeil, um deine Position zu teilen — auch direkt neben einem Wegpunkt oder Track.** Der blaue Standortpfeil hat beim Tippen jetzt Vorrang, sodass du nicht mehr hineinzoomen musst, um nicht versehentlich zuerst einen nahen Wegpunkt oder Track zu treffen.
+- **Lange Track-Namen sind vollständig lesbar.** Im Track-Bildschirm läuft ein langer Name jetzt durch, sodass du ihn ganz lesen kannst, und beim Umbenennen öffnet sich das Feld am *Ende* des Namens — so korrigierst du lange Namen, ohne erst den sichtbaren Teil löschen zu müssen.
+
+---
+
 ## 1.45.0 — 30. Juni 2026 — Wetter-Trends in deinem Zeitfenster
 
 - **Die Diagramme für Luftdruck und Luftfeuchtigkeit folgen jetzt deinem Vorhersage-Zeitraum.** Wenn du die Wettervorhersage zwischen 24 h, 8 h und 2 h umschaltest, zeichnen sich die Trend-Diagramme für Druck und Feuchtigkeit darunter passend neu — so liest du den aktuellen Trend in dem Zeitfenster, das dich interessiert. Die 2-Stunden-Ansicht nutzt feine 15-Minuten-Daten, wo sie verfügbar sind.

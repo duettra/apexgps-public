@@ -4,6 +4,27 @@ Changements visibles par l\'utilisateur, plus récents en premier. Pour les refa
 
 ---
 
+## 1.47.1 — 1er août 2026 — Conçu pour Android 16
+
+- **Mise à jour de compatibilité.** ApexGPS est désormais compilé pour Android 16. Rien ne change dans le fonctionnement de l'application — cela lui garantit une prise en charge complète sur la dernière version d'Android et sur les appareils à venir.
+
+---
+
+## 1.47.0 — 10 juillet 2026 — Explorez votre profil d'altitude
+
+- **Pincez pour zoomer dans le graphique d'altitude.** Touchez une trace sur la carte (ou ouvrez l'écran d'une trace) : le profil d'altitude est maintenant interactif — **pincez** à deux doigts pour zoomer sur une section, **faites glisser un doigt** dessus pour la parcourir — le repère se déplace le long de la trace sur la carte et l'affichage indique l'altitude à ce point — et **touchez deux fois** pour revenir à la trace entière. En zoomant, le graphique se remet à l'échelle de cette section, si bien que des montées douces qui paraissent plates sur l'ensemble de la trace révèlent leur détail.
+- **Basculez le graphique entre distance et temps.** Touchez la valeur de distance (marquée d'un **⇄**) pour faire passer l'axe inférieur du graphique de la distance au **temps écoulé**, et inversement. Cela apparaît pour les traces enregistrées avec des informations de temps.
+- Votre niveau de zoom est désormais conservé quand vous réduisez puis rouvrez le panneau de trace.
+
+---
+
+## 1.46.0 — 7 juillet 2026 — Appui plus facile et noms de traces plus clairs
+
+- **Touchez votre flèche de position pour partager votre position — même à côté d'un point ou d'une trace.** La flèche bleue de position est désormais prioritaire à l'appui : vous n'avez plus besoin de zoomer pour éviter de toucher d'abord un point ou une trace voisine.
+- **Les noms de traces longs sont entièrement lisibles.** Sur l'écran de trace, un nom long défile maintenant pour que vous puissiez le lire en entier, et quand vous renommez une trace le champ s'ouvre à la *fin* du nom — vous corrigez donc les noms longs sans devoir d'abord effacer la partie visible.
+
+---
+
 ## 1.45.0 — 30 juin 2026 — Tendances météo à votre échelle
 
 - **Les graphiques de pression et d'humidité suivent désormais votre plage de prévision.** Quand vous basculez la prévision météo entre 24 h, 8 h et 2 h, les graphiques de tendance de la pression et de l'humidité en dessous se redessinent pour correspondre à la même fenêtre — vous lisez ainsi la tendance récente à l'échelle qui vous intéresse. La vue 2 heures utilise des données fines à 15 minutes là où elles sont disponibles.

@@ -4,6 +4,27 @@ Zmiany widoczne dla użytkownika, najnowsze u góry. Refaktory wewnętrzne / pod
 
 ---
 
+## 1.47.1 — 1 sierpnia 2026 — Zbudowana pod Androida 16
+
+- **Aktualizacja zgodności.** ApexGPS jest teraz budowana pod Androida 16. W działaniu aplikacji nic się nie zmienia — dzięki temu pozostaje w pełni wspierana na najnowszej wersji Androida i na przyszłych urządzeniach.
+
+---
+
+## 1.47.0 — 10 lipca 2026 — Poznaj swój profil wysokości
+
+- **Rozsuń palce, aby przybliżyć wykres wysokości.** Dotknij trasy na mapie (lub otwórz ekran trasy) — profil wysokości jest teraz interaktywny: **rozsuń dwa palce**, aby przybliżyć fragment, **przeciągnij jednym palcem** po nim, aby go prześledzić — znacznik przesuwa się wzdłuż trasy na mapie, a odczyt pokazuje wysokość w tym miejscu — i **dotknij dwukrotnie**, aby wrócić do całej trasy. Przy przybliżeniu wykres skaluje się do tego fragmentu, więc łagodne podejścia, które w skali całej trasy wyglądają płasko, pokazują swoje szczegóły.
+- **Przełącz wykres między dystansem a czasem.** Dotknij wartości dystansu (oznaczonej znakiem **⇄**), aby zmienić dolną oś wykresu z dystansu na **czas trwania** i z powrotem. Pojawia się to przy trasach zapisanych z informacją o czasie.
+- Poziom przybliżenia jest teraz zachowywany, gdy minimalizujesz i ponownie otwierasz panel trasy.
+
+---
+
+## 1.46.0 — 7 lipca 2026 — Łatwiejsze dotykanie i czytelniejsze nazwy tras
+
+- **Dotknij strzałki swojej lokalizacji, aby udostępnić pozycję — nawet obok punktu lub trasy.** Niebieska strzałka lokalizacji ma teraz pierwszeństwo przy dotknięciu, więc nie musisz już przybliżać, aby przypadkiem nie trafić najpierw w pobliski punkt lub trasę.
+- **Długie nazwy tras są w pełni czytelne.** Na ekranie trasy długa nazwa przewija się teraz, więc możesz przeczytać ją w całości, a przy zmianie nazwy pole otwiera się na *końcu* nazwy — poprawiasz więc długie nazwy bez kasowania widocznej części.
+
+---
+
 ## 1.45.0 — 30 czerwca 2026 — Trendy pogody w Twoim zakresie
 
 - **Wykresy ciśnienia i wilgotności podążają teraz za Twoim zakresem prognozy.** Gdy przełączasz prognozę pogody między 24 h, 8 h i 2 h, wykresy trendu ciśnienia i wilgotności poniżej rysują się na nowo, aby pasować do tego samego okna — dzięki temu odczytujesz najnowszy trend w interesującej Cię skali. Widok 2-godzinny korzysta z dokładnych danych co 15 minut tam, gdzie są dostępne.

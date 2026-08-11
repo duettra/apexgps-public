@@ -4,6 +4,27 @@ Cambios visibles para el usuario, más recientes primero. Para refactors interno
 
 ---
 
+## 1.47.1 — 1 de agosto de 2026 — Compilada para Android 16
+
+- **Actualización de compatibilidad.** ApexGPS ahora se compila para Android 16. No cambia nada en el funcionamiento de la app — esto la mantiene plenamente compatible con la versión más reciente de Android y con los dispositivos futuros.
+
+---
+
+## 1.47.0 — 10 de julio de 2026 — Explora tu perfil de altitud
+
+- **Pellizca para ampliar el gráfico de altitud.** Toca una ruta en el mapa (o abre la pantalla de una ruta): el perfil de altitud ahora es interactivo — **pellizca** con dos dedos para ampliar una sección, **arrastra un dedo** sobre ella para recorrerla — el marcador se mueve por la ruta en el mapa y la lectura muestra la altitud en ese punto — y **toca dos veces** para volver a la ruta completa. Al ampliar, el gráfico se reescala a esa sección, así que las subidas suaves que parecen planas en la ruta entera muestran su detalle.
+- **Cambia el gráfico entre distancia y tiempo.** Toca la cifra de distancia (marcada con un **⇄**) para pasar el eje inferior del gráfico de la distancia al **tiempo transcurrido**, y de vuelta. Aparece en rutas grabadas con información de tiempo.
+- Tu nivel de zoom ahora se mantiene cuando minimizas y vuelves a abrir el panel de ruta.
+
+---
+
+## 1.46.0 — 7 de julio de 2026 — Toques más fáciles y nombres de ruta más claros
+
+- **Toca tu flecha de ubicación para compartir tu posición — incluso junto a un punto o una ruta.** La flecha azul de ubicación ahora tiene prioridad al tocar, así que ya no tienes que ampliar para evitar tocar antes un punto o una ruta cercanos.
+- **Los nombres de ruta largos se leen por completo.** En la pantalla de ruta, un nombre largo ahora se desplaza para que puedas leerlo entero, y al renombrar una ruta el campo se abre al *final* del nombre — así corriges nombres largos sin tener que borrar primero la parte visible.
+
+---
+
 ## 1.45.0 — 30 de junio de 2026 — Tendencias del tiempo a tu escala
 
 - **Los gráficos de presión y humedad ahora siguen tu rango de pronóstico.** Cuando cambias el pronóstico del tiempo entre 24 h, 8 h y 2 h, los gráficos de tendencia de presión y humedad de debajo se redibujan para coincidir con la misma ventana — así lees la tendencia reciente a la escala que te interesa. La vista de 2 horas usa datos finos de 15 minutos donde están disponibles.
