@@ -18,7 +18,7 @@ El chip rota entre varios estados:
 
 | Estado | Aspecto | Significado |
 |---|---|---|
-| Reciente | `☼ 24° · 12 km/h NE` | Actualizado en los últimos 15 minutos. |
+| Reciente | un icono del tiempo y luego `24° · 12 km/h NE` | Actualizado en los últimos 15 minutos. |
 | Envejeciendo | `… · hace 32 min` | Más de 15 minutos pero probablemente exacto. |
 | Caducado / sin red | `⚠ … · hace 2 h` (gris) | Más de una hora o sin conexión. Toca el chip para refrescar manualmente. |
 
@@ -28,11 +28,14 @@ El chip no desaparece una vez activado el tiempo — solo cambia su aspecto para
 
 Toca el chip (o la línea «Tiempo aquí» de un waypoint) para abrir la hoja completa. De arriba a abajo:
 
-- **Ahora** — emoji grande del tiempo + temperatura, «sensación», y una fila para viento / humedad + precip máx / punto de rocío + UV / presión + ocaso.
-- **Próximas 24 horas** — ocho iconos cada 3 horas (lado sol o lado luna según el orto / ocaso local de esa hora) con la temperatura horaria.
+- **Ahora** — icono grande del tiempo + temperatura, «sensación», y una fila para viento / humedad + precip máx / punto de rocío + UV / presión + ocaso.
+- **Franja de previsión con selector 24h / 8h / 2h** — ocho iconos (versión de día o de noche según el orto / ocaso local de ese paso) con la temperatura y, debajo, la **probabilidad de precipitación**. El porcentaje solo aparece a partir del 20 %, para que una previsión seca se mantenga despejada. El pequeño selector sobre la franja cambia la ventana:
+  - **24h** — todo el día de un vistazo, una celda cada 3 horas.
+  - **8h** — las próximas ocho horas, una celda por hora.
+  - **2h** — las próximas dos horas en pasos de 15 minutos, para detectar un chubasco o una tormenta a punto de llegar (hasta ~45 minutos antes que la vista horaria). La opción **2h** aparece donde hay datos de 15 minutos (gran parte de Europa y Norteamérica); en otros lugares verás solo **24h** y **8h**.
 - **Tendencia de presión** (verde) — gráfico de 24 horas, útil para detectar un frente que se acerca.
 - **Tendencia de humedad** (azul claro) — gráfico de 24 horas.
-- **Próximos 7 días** — una fila de iconos por día con máxima / mínima.
+- **Próximos 7 días** — una fila de iconos por día con máxima / mínima y la probabilidad de precipitación cuando alcanza el 20 % o más.
 
 Hay un botón refrescar (↻) en la cabecera de la hoja que ignora la caché y obtiene datos frescos. Sin conexión, los datos previos permanecen y el indicador de caducidad del chip sigue visible.
 
@@ -43,6 +46,25 @@ Si un waypoint tiene altitud guardada (manual, fijada por GPS o importada de un 
 ## Auto-refresco
 
 Con el tiempo activado, el chip se actualiza cada 15 minutos mientras la app está abierta y en línea. En modo avión, el chip mantiene los últimos datos conocidos con un indicador «caducado» hasta reconectar.
+
+## Cómo leer los iconos
+
+Los símbolos del tiempo los dibuja ApexGPS, así que se ven **exactamente igual en cualquier teléfono**. El color
+transmite el significado:
+
+| Color | Significado |
+|---|---|
+| Azul | Precipitación — llovizna, lluvia, aguanieve o nieve |
+| Ámbar | Cielo despejado (el sol; de noche, el cielo despejado muestra una luna gris sencilla) |
+| Gris | Nubes o niebla |
+| Rojo | Tormenta |
+
+El detalle del icono sigue a la previsión: lluvia débil, lluvia y lluvia fuerte son tres símbolos distintos, igual que
+nieve, nieve fuerte y aguanieve. Como la probabilidad de precipitación también aparece como número, nunca dependes de
+interpretar un símbolo pequeño.
+
+Hasta la versión 1.47.1 estos símbolos eran emojis que aportaba el propio teléfono, de modo que dos teléfonos podían
+mostrar dibujos distintos — o ninguno — para la misma previsión. Resuelto desde 1.48.0.
 
 ## Fuentes de datos
 

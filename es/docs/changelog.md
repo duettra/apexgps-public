@@ -4,6 +4,16 @@ Cambios visibles para el usuario, más recientes primero. Para refactors interno
 
 ---
 
+## 1.48.0 — 29 de septiembre de 2026 — Símbolos del tiempo fiables en cualquier teléfono
+
+- **Los símbolos del tiempo ahora se ven igual en todos los teléfonos.** Antes eran emojis que aportaba el propio teléfono, así que dos teléfonos podían mostrar dibujos distintos — o ninguno — para la misma previsión. ApexGPS ahora dibuja sus propios símbolos.
+- **La probabilidad de lluvia como número.** La franja de previsión y la vista de 7 días muestran bajo cada icono la probabilidad de precipitación, a partir del 20 %. Las previsiones secas se mantienen despejadas.
+- **El color te dice de un vistazo lo que viene** — azul para lluvia o nieve, ámbar para cielo despejado, gris para nubes y niebla, rojo para tormentas.
+- **Símbolos más precisos.** Lluvia débil, lluvia y lluvia fuerte tienen ahora cada una su símbolo, igual que nieve, nieve fuerte y aguanieve. Los chubascos fuertes ya no parecen una tormenta.
+- Los lectores de pantalla ahora anuncian el tiempo con palabras, por ejemplo «Lluvia débil».
+
+---
+
 ## 1.47.1 — 1 de agosto de 2026 — Compilada para Android 16
 
 - **Actualización de compatibilidad.** ApexGPS ahora se compila para Android 16. No cambia nada en el funcionamiento de la app — esto la mantiene plenamente compatible con la versión más reciente de Android y con los dispositivos futuros.

@@ -4,6 +4,16 @@ Changements visibles par l\'utilisateur, plus récents en premier. Pour les refa
 
 ---
 
+## 1.48.0 — 29 septembre 2026 — Des symboles météo fiables sur tous les téléphones
+
+- **Les symboles météo sont désormais identiques sur tous les téléphones.** C'étaient auparavant des emojis fournis par le téléphone : deux appareils pouvaient donc afficher des images différentes — voire aucune — pour la même prévision. ApexGPS dessine maintenant ses propres symboles.
+- **La probabilité de pluie en chiffres.** La bande de prévisions et l'aperçu sur 7 jours affichent sous chaque icône la probabilité de précipitations, à partir de 20 %. Les prévisions sèches restent lisibles.
+- **La couleur indique d'un coup d'œil ce qui arrive** — bleu pour la pluie ou la neige, ambre pour un ciel clair, gris pour les nuages et le brouillard, rouge pour les orages.
+- **Des symboles plus précis.** Pluie faible, pluie et pluie forte ont chacune leur symbole, de même que neige, neige forte et neige fondue. Les fortes averses ne ressemblent plus à un orage.
+- Les lecteurs d'écran annoncent désormais la météo en toutes lettres, par exemple « Pluie faible ».
+
+---
+
 ## 1.47.1 — 1er août 2026 — Conçu pour Android 16
 
 - **Mise à jour de compatibilité.** ApexGPS est désormais compilé pour Android 16. Rien ne change dans le fonctionnement de l'application — cela lui garantit une prise en charge complète sur la dernière version d'Android et sur les appareils à venir.

@@ -18,7 +18,7 @@ The chip rotates between a few states:
 
 | State | Looks like | Meaning |
 |---|---|---|
-| Fresh | `☼ 24° · 12 km/h NE` | Updated within the last 15 minutes. |
+| Fresh | a weather icon, then `24° · 12 km/h NE` | Updated within the last 15 minutes. |
 | Aging | `… · 32 min ago` | More than 15 minutes old, but still likely accurate. |
 | Stale / offline | `⚠ … · 2h ago` (greyed) | More than an hour old or no connectivity. Tap the chip to refresh manually. |
 
@@ -28,14 +28,14 @@ The chip never disappears once weather is on — it just changes its appearance 
 
 Tap the chip (or the "Weather here" line on a waypoint) to open the full sheet. Top-to-bottom it shows:
 
-- **Now** — large weather emoji + temperature, "feels like", and a row each for wind / humidity + max precip / dewpoint + UV / pressure + sunset.
-- **Forecast strip with a 24h / 8h / 2h toggle** — eight icons (sun-side or moon-side depending on the local sunrise / sunset for that step) with the temperature. The small toggle above the strip switches the window:
+- **Now** — a large weather icon + temperature, "feels like", and a row each for wind / humidity + max precip / dewpoint + UV / pressure + sunset.
+- **Forecast strip with a 24h / 8h / 2h toggle** — eight icons (day or night depending on the local sunrise / sunset for that step) with the temperature, and the **chance of precipitation** underneath. The percentage only appears from 20 % upwards, so a dry forecast stays uncluttered. The small toggle above the strip switches the window:
   - **24h** — the whole day at a glance, one cell every 3 hours.
   - **8h** — the next eight hours, one cell per hour.
   - **2h** — the next two hours in 15-minute steps, for catching a shower or storm that's about to arrive (it can show the change up to ~45 minutes before the hourly view does). The **2h** option appears where 15-minute data is available (most of Europe and North America); elsewhere you'll see just **24h** and **8h**.
 - **Pressure trend** (green) — 24-hour line chart, useful for spotting an approaching front.
 - **Humidity trend** (light blue) — 24-hour line chart.
-- **Next 7 days** — a row of weekday icons with the day's high / low temperature.
+- **Next 7 days** — a row of weekday icons with the day's high / low temperature, and the chance of precipitation where it reaches 20 % or more.
 
 There's a refresh button (↻) in the sheet header that bypasses the cache and fetches fresh data. If you're offline, the previous data stays on screen and the chip's stale indicator stays visible.
 
@@ -46,6 +46,25 @@ If a waypoint has a stored elevation (entered manually, set from GPS, or importe
 ## Auto-refresh
 
 The current-location forecast appears as soon as you open the map (it uses your last known position so it doesn't wait for a full GPS lock, then sharpens to your exact spot and elevation once a fix lands). After that it refreshes when you **open the forecast sheet**, when you tap the **↻ refresh button**, and **automatically every 15 minutes** while weather is on, you have a live location, and you're online. It does not refresh on every step you take, and it never contacts the network while you're offline — the chip simply keeps the last data with its "… ago" age until you reconnect or refresh.
+
+## Reading the icons
+
+The weather symbols are drawn by ApexGPS itself, so they look **exactly the same on every phone**. Colour carries
+meaning at a glance:
+
+| Colour | Meaning |
+|---|---|
+| Blue | Precipitation — drizzle, rain, sleet or snow |
+| Amber | Clear skies (the sun; at night a clear sky shows a plain grey moon) |
+| Grey | Cloud or fog |
+| Red | Thunderstorm |
+
+Icon detail matches the forecast: light rain, rain and heavy rain are three different symbols, as are snow, heavy
+snow and sleet. Because the chance of precipitation is also printed as a number, you never have to rely on reading a
+small symbol alone.
+
+Up to version 1.47.1 these symbols were emoji supplied by the phone itself, which meant two phones could show
+different pictures — or none at all — for the very same forecast. That is fixed as of 1.48.0.
 
 ## Data sources
 

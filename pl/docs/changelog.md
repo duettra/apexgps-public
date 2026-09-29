@@ -4,6 +4,16 @@ Zmiany widoczne dla użytkownika, najnowsze u góry. Refaktory wewnętrzne / pod
 
 ---
 
+## 1.48.0 — 29 września 2026 — Symbole pogody, którym można ufać na każdym telefonie
+
+- **Symbole pogody wyglądają teraz tak samo na każdym telefonie.** Wcześniej były to emoji dostarczane przez sam telefon, więc dwa telefony mogły pokazywać różne obrazki — albo żaden — dla dokładnie tej samej prognozy. ApexGPS rysuje teraz własne symbole.
+- **Szansa na deszcz jako liczba.** Pasek prognozy i widok 7-dniowy pokazują pod każdą ikoną prawdopodobieństwo opadów, od 20 %. Suche prognozy pozostają czytelne.
+- **Kolor od razu mówi, co nadchodzi** — niebieski to deszcz lub śnieg, bursztynowy to czyste niebo, szary to chmury i mgła, czerwony to burza.
+- **Dokładniejsze symbole.** Słaby deszcz, deszcz i silny deszcz mają teraz własne symbole, podobnie śnieg, silny śnieg i deszcz ze śniegiem. Silne przelotne opady nie wyglądają już jak burza.
+- Czytniki ekranu podają teraz pogodę słowami, na przykład „Słaby deszcz”.
+
+---
+
 ## 1.47.1 — 1 sierpnia 2026 — Zbudowana pod Androida 16
 
 - **Aktualizacja zgodności.** ApexGPS jest teraz budowana pod Androida 16. W działaniu aplikacji nic się nie zmienia — dzięki temu pozostaje w pełni wspierana na najnowszej wersji Androida i na przyszłych urządzeniach.

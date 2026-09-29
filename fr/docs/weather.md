@@ -18,7 +18,7 @@ La pastille alterne entre quelques états :
 
 | État | Apparence | Signification |
 |---|---|---|
-| Récente | `☼ 24° · 12 km/h NE` | Mise à jour dans les 15 dernières minutes. |
+| Récente | une icône météo, puis `24° · 12 km/h NE` | Mise à jour dans les 15 dernières minutes. |
 | Vieillissante | `… · il y a 32 min` | Plus de 15 minutes mais probablement encore exacte. |
 | Périmée / hors-ligne | `⚠ … · il y a 2 h` (grisée) | Plus d'une heure ou pas de connexion. Touchez la pastille pour rafraîchir manuellement. |
 
@@ -28,11 +28,14 @@ La pastille ne disparaît pas une fois la météo activée — elle change seule
 
 Touchez la pastille (ou la ligne « Météo ici » d'un waypoint) pour ouvrir la feuille complète. De haut en bas :
 
-- **Maintenant** — gros emoji météo + température, « ressenti », et une ligne pour vent / humidité + précip max / point de rosée + UV / pression + coucher.
-- **Prochaines 24 heures** — huit icônes toutes les 3 heures (côté soleil ou côté lune selon le lever / coucher local pour cette heure) avec la température horaire.
+- **Maintenant** — grande icône météo + température, « ressenti », et une ligne pour vent / humidité + précip max / point de rosée + UV / pression + coucher.
+- **Bande de prévisions avec sélecteur 24h / 8h / 2h** — huit icônes (version jour ou nuit selon le lever / coucher local pour ce pas) avec la température, et en dessous la **probabilité de précipitations**. Le pourcentage n'apparaît qu'à partir de 20 %, pour qu'une prévision sèche reste lisible. Le petit sélecteur au-dessus change la fenêtre :
+  - **24h** — toute la journée d'un coup d'œil, une cellule toutes les 3 heures.
+  - **8h** — les huit prochaines heures, une cellule par heure.
+  - **2h** — les deux prochaines heures par pas de 15 minutes, pour repérer une averse ou un orage sur le point d'arriver (jusqu'à ~45 minutes avant la vue horaire). L'option **2h** apparaît là où les données à 15 minutes existent (une grande partie de l'Europe et de l'Amérique du Nord) ; ailleurs vous ne verrez que **24h** et **8h**.
 - **Tendance de pression** (vert) — courbe sur 24 heures, utile pour repérer un front qui approche.
 - **Tendance d'humidité** (bleu clair) — courbe sur 24 heures.
-- **Prochains 7 jours** — une rangée d'icônes par jour avec maxi/mini de la journée.
+- **Prochains 7 jours** — une rangée d'icônes par jour avec maxi/mini de la journée, et la probabilité de précipitations lorsqu'elle atteint 20 % ou plus.
 
 Un bouton de rafraîchissement (↻) dans l'en-tête de la feuille contourne le cache et force une requête fraîche. Hors-ligne, les données précédentes restent affichées et l'indicateur « périmée » de la pastille reste visible.
 
@@ -43,6 +46,25 @@ Si un waypoint a une altitude stockée (saisie manuellement, fixée par GPS ou i
 ## Auto-rafraîchissement
 
 Quand la météo est activée, la pastille se met à jour toutes les 15 minutes tant que l'app est ouverte et en ligne. En mode avion, la pastille conserve les dernières données connues avec un indicateur « périmée » jusqu'à reconnexion.
+
+## Lire les icônes
+
+Les symboles météo sont dessinés par ApexGPS lui-même : ils sont donc **identiques sur tous les téléphones**. La
+couleur porte le sens :
+
+| Couleur | Signification |
+|---|---|
+| Bleu | Précipitations — bruine, pluie, neige fondue ou neige |
+| Ambre | Ciel clair (le soleil ; la nuit, un ciel clair montre une lune grise simple) |
+| Gris | Nuages ou brouillard |
+| Rouge | Orage |
+
+Le détail des icônes suit la prévision : pluie faible, pluie et pluie forte sont trois symboles distincts, de même
+que neige, neige forte et neige fondue. Comme la probabilité de précipitations est aussi affichée en chiffres, vous
+n'avez jamais à vous fier à un petit symbole seul.
+
+Jusqu'à la version 1.47.1, ces symboles étaient des emojis fournis par le téléphone : deux appareils pouvaient donc
+afficher des images différentes — voire aucune — pour la même prévision. Corrigé à partir de 1.48.0.
 
 ## Sources de données
 

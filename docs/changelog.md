@@ -4,6 +4,16 @@ User-visible changes, newest first. For internal refactoring / version-bump-only
 
 ---
 
+## 1.48.0 — September 29, 2026 — Weather symbols you can trust on any phone
+
+- **Weather symbols now look the same on every phone.** They used to be emoji supplied by the phone itself, so two phones could show different pictures — or no picture at all — for exactly the same forecast. ApexGPS now draws its own symbols.
+- **See the chance of rain as a number.** The forecast strip and the 7-day outlook now show the chance of precipitation under each icon, from 20 % upwards. Dry forecasts stay uncluttered.
+- **Colour tells you what's coming at a glance** — blue for rain or snow, amber for clear skies, grey for cloud and fog, red for thunderstorms.
+- **More precise symbols.** Light rain, rain and heavy rain now each have their own symbol, as do snow, heavy snow and sleet. Heavy showers no longer look like a thunderstorm.
+- Screen readers now announce the weather in words, such as "Light rain".
+
+---
+
 ## 1.47.1 — August 1, 2026 — Built for Android 16
 
 - **Compatibility update.** ApexGPS is now built for Android 16. Nothing changes in how the app works — this keeps it fully supported on the newest version of Android and on future devices.

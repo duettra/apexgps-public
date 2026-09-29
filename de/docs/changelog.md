@@ -4,6 +4,16 @@ Für Nutzer sichtbare Änderungen, neueste zuerst. Für internes Refactoring / r
 
 ---
 
+## 1.48.0 — 29. September 2026 — Wettersymbole, auf die Sie sich verlassen können
+
+- **Wettersymbole sehen jetzt auf jedem Telefon gleich aus.** Bisher waren es Emojis, die das Telefon selbst lieferte — zwei Geräte konnten dadurch bei derselben Vorhersage unterschiedliche Bilder oder gar keines zeigen. ApexGPS zeichnet seine Symbole jetzt selbst.
+- **Die Regenwahrscheinlichkeit als Zahl.** Der Vorhersage-Streifen und die 7-Tage-Übersicht zeigen unter jedem Symbol die Niederschlagswahrscheinlichkeit, ab 20 %. Trockene Vorhersagen bleiben übersichtlich.
+- **Die Farbe verrät auf einen Blick, was kommt** — Blau für Regen oder Schnee, Bernstein für klaren Himmel, Grau für Wolken und Nebel, Rot für Gewitter.
+- **Genauere Symbole.** Leichter Regen, Regen und starker Regen haben jetzt je ein eigenes Symbol, ebenso Schnee, starker Schnee und Schneeregen. Starke Schauer sehen nicht mehr wie ein Gewitter aus.
+- Bildschirmleser sagen das Wetter jetzt in Worten an, zum Beispiel „Leichter Regen“.
+
+---
+
 ## 1.47.1 — 1. August 2026 — Für Android 16 gebaut
 
 - **Kompatibilitäts-Update.** ApexGPS wird jetzt für Android 16 gebaut. An der Funktionsweise der App ändert sich nichts — so bleibt sie auf der neuesten Android-Version und auf künftigen Geräten voll unterstützt.

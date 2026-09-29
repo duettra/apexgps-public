@@ -18,7 +18,7 @@ Chip rotuje pomiędzy kilkoma stanami:
 
 | Stan | Wygląda jak | Znaczenie |
 |---|---|---|
-| Świeży | `☼ 24° · 12 km/h NE` | Aktualizacja w ciągu ostatnich 15 minut. |
+| Świeży | ikona pogody, a po niej `24° · 12 km/h NE` | Aktualizacja w ciągu ostatnich 15 minut. |
 | Starzejący się | `… · 32 min temu` | Ponad 15 minut, ale prawdopodobnie nadal trafny. |
 | Przestarzały / offline | `⚠ … · 2h temu` (szary) | Ponad godzina lub brak połączenia. Stuknij chip, aby ręcznie odświeżyć. |
 
@@ -28,11 +28,14 @@ Chip nie znika, gdy pogoda jest włączona — zmienia tylko wygląd, by pokaza�
 
 Stuknij chip (lub wiersz „Pogoda tutaj" przy waypoincie), by otworzyć pełny arkusz. Z góry na dół:
 
-- **Teraz** — duży emoji pogody + temperatura, „odczuwalna" oraz po jednym wierszu na wiatr / wilgotność + maks. opady / punkt rosy + UV / ciśnienie + zachód.
-- **Następne 24 godziny** — osiem ikon co 3 godziny (strona słońca lub strona księżyca w zależności od lokalnego wschodu / zachodu dla danej godziny) z godzinową temperaturą.
+- **Teraz** — duża ikona pogody + temperatura, „odczuwalna" oraz po jednym wierszu na wiatr / wilgotność + maks. opady / punkt rosy + UV / ciśnienie + zachód.
+- **Pasek prognozy z przełącznikiem 24h / 8h / 2h** — osiem ikon (wariant dzienny lub nocny zależnie od lokalnego wschodu / zachodu dla danego kroku) z temperaturą, a pod spodem **prawdopodobieństwo opadów**. Wartość procentowa pojawia się dopiero od 20 %, aby sucha prognoza pozostała czytelna. Mały przełącznik nad paskiem zmienia zakres:
+  - **24h** — cały dzień na jeden rzut oka, jedna komórka co 3 godziny.
+  - **8h** — najbliższe osiem godzin, jedna komórka na godzinę.
+  - **2h** — najbliższe dwie godziny w krokach 15-minutowych, aby wychwycić nadchodzący przelotny deszcz lub burzę (nawet ~45 minut wcześniej niż widok godzinowy). Opcja **2h** pojawia się tam, gdzie dostępne są dane 15-minutowe (większa część Europy i Ameryki Północnej); gdzie indziej zobaczysz tylko **24h** i **8h**.
 - **Trend ciśnienia** (zielony) — wykres liniowy 24-godzinny, przydatny do wykrywania zbliżającego się frontu.
 - **Trend wilgotności** (jasnoniebieski) — wykres liniowy 24-godzinny.
-- **Następne 7 dni** — rząd ikon dni tygodnia z maksymalną / minimalną temperaturą.
+- **Następne 7 dni** — rząd ikon dni tygodnia z maksymalną / minimalną temperaturą oraz prawdopodobieństwem opadów, gdy wynosi ono 20 % lub więcej.
 
 W nagłówku arkusza jest przycisk odświeżania (↻), który pomija cache i pobiera świeże dane. Offline poprzednie dane pozostają na ekranie, a wskaźnik „przestarzałe" chipa pozostaje widoczny.
 
@@ -43,6 +46,24 @@ Jeśli waypoint ma zapisaną wysokość (wpisaną ręcznie, ustawioną z GPS lub
 ## Auto-odświeżanie
 
 Gdy pogoda jest włączona, chip aktualizuje się co 15 minut, dopóki aplikacja jest otwarta i online. W trybie samolotowym chip zachowuje ostatnie znane dane i wskaźnik „przestarzałe", aż połączysz się ponownie.
+
+## Jak czytać ikony
+
+Symbole pogody rysuje sam ApexGPS, więc wyglądają **dokładnie tak samo na każdym telefonie**. Znaczenie niesie kolor:
+
+| Kolor | Znaczenie |
+|---|---|
+| Niebieski | Opady — mżawka, deszcz, deszcz ze śniegiem lub śnieg |
+| Bursztynowy | Czyste niebo (słońce; nocą czyste niebo pokazuje zwykły szary księżyc) |
+| Szary | Chmury lub mgła |
+| Czerwony | Burza |
+
+Szczegółowość ikon odpowiada prognozie: słaby deszcz, deszcz i silny deszcz to trzy różne symbole, podobnie śnieg,
+silny śnieg i deszcz ze śniegiem. Ponieważ prawdopodobieństwo opadów jest też podane liczbą, nigdy nie musisz polegać
+wyłącznie na odczytaniu małego symbolu.
+
+Do wersji 1.47.1 symbole te były emoji dostarczanymi przez sam telefon, przez co dwa telefony mogły pokazywać różne
+obrazki — albo żaden — dla tej samej prognozy. Naprawione od 1.48.0.
 
 ## Źródła danych
 
