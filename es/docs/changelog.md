@@ -4,6 +4,12 @@ Cambios visibles para el usuario, más recientes primero. Para refactors interno
 
 ---
 
+## 1.48.1 — 1 de octubre de 2026 — Corrección al tocar el mapa
+
+- **Ya no aparece un bocadillo vacío al tocar una línea del mapa.** Al grabar, navegar a un punto de paso o seguir un track, tocar el rastro de la grabación o la línea de guía podía abrir un pequeño bocadillo en blanco — y no se podía seleccionar el track de debajo. Ahora el toque pasa directamente al track o al mapa de debajo.
+
+---
+
 ## 1.48.0 — 29 de septiembre de 2026 — Símbolos del tiempo fiables en cualquier teléfono
 
 - **Los símbolos del tiempo ahora se ven igual en todos los teléfonos.** Antes eran emojis que aportaba el propio teléfono, así que dos teléfonos podían mostrar dibujos distintos — o ninguno — para la misma previsión. ApexGPS ahora dibuja sus propios símbolos.

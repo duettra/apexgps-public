@@ -4,6 +4,12 @@ User-visible changes, newest first. For internal refactoring / version-bump-only
 
 ---
 
+## 1.48.1 — October 1, 2026 — Map tap fix
+
+- **No more empty speech bubble when tapping a line on the map.** While recording, navigating to a waypoint or following a track, tapping the recording trail or the guidance line could open a small blank bubble — and the track underneath couldn't be selected. Taps now go straight through to the track or map below.
+
+---
+
 ## 1.48.0 — September 29, 2026 — Weather symbols you can trust on any phone
 
 - **Weather symbols now look the same on every phone.** They used to be emoji supplied by the phone itself, so two phones could show different pictures — or no picture at all — for exactly the same forecast. ApexGPS now draws its own symbols.

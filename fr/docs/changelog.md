@@ -4,6 +4,12 @@ Changements visibles par l\'utilisateur, plus récents en premier. Pour les refa
 
 ---
 
+## 1.48.1 — 1er octobre 2026 — Correction du toucher sur la carte
+
+- **Plus de bulle vide en touchant une ligne sur la carte.** Pendant un enregistrement, une navigation vers un point de passage ou le suivi d'une trace, toucher le tracé en cours ou la ligne de guidage pouvait ouvrir une petite bulle vide — et la trace en dessous ne pouvait pas être sélectionnée. Le toucher passe désormais directement à la trace ou à la carte en dessous.
+
+---
+
 ## 1.48.0 — 29 septembre 2026 — Des symboles météo fiables sur tous les téléphones
 
 - **Les symboles météo sont désormais identiques sur tous les téléphones.** C'étaient auparavant des emojis fournis par le téléphone : deux appareils pouvaient donc afficher des images différentes — voire aucune — pour la même prévision. ApexGPS dessine maintenant ses propres symboles.

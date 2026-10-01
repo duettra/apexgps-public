@@ -4,6 +4,12 @@ Zmiany widoczne dla użytkownika, najnowsze u góry. Refaktory wewnętrzne / pod
 
 ---
 
+## 1.48.1 — 1 października 2026 — Poprawka dotykania mapy
+
+- **Koniec z pustym dymkiem po dotknięciu linii na mapie.** Podczas nagrywania, nawigacji do punktu lub podążania za trasą dotknięcie śladu nagrywania albo linii prowadzenia mogło otworzyć mały pusty dymek — a trasy pod spodem nie dało się wybrać. Dotknięcie trafia teraz bezpośrednio do trasy lub mapy pod spodem.
+
+---
+
 ## 1.48.0 — 29 września 2026 — Symbole pogody, którym można ufać na każdym telefonie
 
 - **Symbole pogody wyglądają teraz tak samo na każdym telefonie.** Wcześniej były to emoji dostarczane przez sam telefon, więc dwa telefony mogły pokazywać różne obrazki — albo żaden — dla dokładnie tej samej prognozy. ApexGPS rysuje teraz własne symbole.

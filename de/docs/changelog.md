@@ -4,6 +4,12 @@ Für Nutzer sichtbare Änderungen, neueste zuerst. Für internes Refactoring / r
 
 ---
 
+## 1.48.1 — 1. Oktober 2026 — Korrektur beim Tippen auf die Karte
+
+- **Keine leere Sprechblase mehr beim Tippen auf eine Linie.** Während einer Aufzeichnung, der Navigation zu einem Wegpunkt oder beim Folgen eines Tracks konnte ein Tippen auf die Aufzeichnungsspur oder die Führungslinie eine kleine leere Blase öffnen — und der Track darunter ließ sich nicht auswählen. Das Tippen geht jetzt direkt an den Track oder die Karte darunter.
+
+---
+
 ## 1.48.0 — 29. September 2026 — Wettersymbole, auf die Sie sich verlassen können
 
 - **Wettersymbole sehen jetzt auf jedem Telefon gleich aus.** Bisher waren es Emojis, die das Telefon selbst lieferte — zwei Geräte konnten dadurch bei derselben Vorhersage unterschiedliche Bilder oder gar keines zeigen. ApexGPS zeichnet seine Symbole jetzt selbst.
