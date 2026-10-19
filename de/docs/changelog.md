@@ -4,6 +4,13 @@ Für Nutzer sichtbare Änderungen, neueste zuerst. Für internes Refactoring / r
 
 ---
 
+## 1.48.2 — 19. Oktober 2026 — Korrekturen bei der Aufzeichnung
+
+- **Der Bildschirm bleibt während der Aufzeichnung an.** Wurde während einer Aufzeichnung oder beim Folgen eines Tracks ein Track mit „Auf Karte anzeigen“ geöffnet, schaltete sich „Folgen“ aus — der Bildschirm konnte dunkel werden und „Folgen“ war entsperrt. Jetzt springt die Karte nur zum Track; tippe auf die Folgen-Schaltfläche, um zu deiner Position zurückzukehren.
+- Punktanzahl, Entfernungen und Koordinaten im Teilen-Dialog verwenden jetzt immer einen Dezimalpunkt.
+
+---
+
 ## 1.48.1 — 1. Oktober 2026 — Korrektur beim Tippen auf die Karte
 
 - **Keine leere Sprechblase mehr beim Tippen auf eine Linie.** Während einer Aufzeichnung, der Navigation zu einem Wegpunkt oder beim Folgen eines Tracks konnte ein Tippen auf die Aufzeichnungsspur oder die Führungslinie eine kleine leere Blase öffnen — und der Track darunter ließ sich nicht auswählen. Das Tippen geht jetzt direkt an den Track oder die Karte darunter.

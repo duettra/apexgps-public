@@ -4,6 +4,13 @@ Changements visibles par l\'utilisateur, plus récents en premier. Pour les refa
 
 ---
 
+## 1.48.2 — 19 octobre 2026 — Corrections de l'enregistrement
+
+- **L'écran reste allumé pendant l'enregistrement.** Ouvrir une trace avec « Afficher sur la carte » pendant un enregistrement ou le suivi d'une trace désactivait le suivi : l'écran pouvait s'éteindre et le suivi était déverrouillé. Désormais, la carte se déplace simplement vers la trace — touchez le bouton de suivi pour revenir à votre position.
+- Le nombre de points, les distances et les coordonnées dans la fenêtre de partage utilisent désormais toujours un point décimal.
+
+---
+
 ## 1.48.1 — 1er octobre 2026 — Correction du toucher sur la carte
 
 - **Plus de bulle vide en touchant une ligne sur la carte.** Pendant un enregistrement, une navigation vers un point de passage ou le suivi d'une trace, toucher le tracé en cours ou la ligne de guidage pouvait ouvrir une petite bulle vide — et la trace en dessous ne pouvait pas être sélectionnée. Le toucher passe désormais directement à la trace ou à la carte en dessous.

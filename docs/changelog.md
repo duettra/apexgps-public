@@ -4,6 +4,13 @@ User-visible changes, newest first. For internal refactoring / version-bump-only
 
 ---
 
+## 1.48.2 — October 19, 2026 — Recording fixes
+
+- **The screen stays on while you record.** Opening a track with "Show on Map" during a recording or while following a track used to switch follow-me off, so the screen could go dark and follow-me was unlocked. Now the map just moves to the track — tap the follow-me button to come back to your position.
+- Point counts, distances and coordinates in the share sheet now always use a decimal point.
+
+---
+
 ## 1.48.1 — October 1, 2026 — Map tap fix
 
 - **No more empty speech bubble when tapping a line on the map.** While recording, navigating to a waypoint or following a track, tapping the recording trail or the guidance line could open a small blank bubble — and the track underneath couldn't be selected. Taps now go straight through to the track or map below.

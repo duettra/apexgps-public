@@ -4,6 +4,13 @@ Zmiany widoczne dla użytkownika, najnowsze u góry. Refaktory wewnętrzne / pod
 
 ---
 
+## 1.48.2 — 19 października 2026 — Poprawki nagrywania
+
+- **Ekran pozostaje włączony podczas nagrywania.** Otwarcie trasy przez „Pokaż na mapie” w trakcie nagrywania lub podążania za trasą wyłączało śledzenie — ekran mógł zgasnąć, a śledzenie było odblokowane. Teraz mapa tylko przesuwa się do trasy; dotknij przycisku śledzenia, aby wrócić do swojej pozycji.
+- Liczba punktów, odległości i współrzędne w oknie udostępniania zawsze używają teraz kropki dziesiętnej.
+
+---
+
 ## 1.48.1 — 1 października 2026 — Poprawka dotykania mapy
 
 - **Koniec z pustym dymkiem po dotknięciu linii na mapie.** Podczas nagrywania, nawigacji do punktu lub podążania za trasą dotknięcie śladu nagrywania albo linii prowadzenia mogło otworzyć mały pusty dymek — a trasy pod spodem nie dało się wybrać. Dotknięcie trafia teraz bezpośrednio do trasy lub mapy pod spodem.

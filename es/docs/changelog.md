@@ -4,6 +4,13 @@ Cambios visibles para el usuario, más recientes primero. Para refactors interno
 
 ---
 
+## 1.48.2 — 19 de octubre de 2026 — Correcciones de la grabación
+
+- **La pantalla sigue encendida mientras grabas.** Abrir un track con «Ver en el mapa» durante una grabación o al seguir un track desactivaba el seguimiento, así que la pantalla podía apagarse y el seguimiento quedaba desbloqueado. Ahora el mapa solo se desplaza al track; toca el botón de seguimiento para volver a tu posición.
+- El número de puntos, las distancias y las coordenadas en la ventana de compartir ahora usan siempre punto decimal.
+
+---
+
 ## 1.48.1 — 1 de octubre de 2026 — Corrección al tocar el mapa
 
 - **Ya no aparece un bocadillo vacío al tocar una línea del mapa.** Al grabar, navegar a un punto de paso o seguir un track, tocar el rastro de la grabación o la línea de guía podía abrir un pequeño bocadillo en blanco — y no se podía seleccionar el track de debajo. Ahora el toque pasa directamente al track o al mapa de debajo.
