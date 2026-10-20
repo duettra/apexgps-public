@@ -4,6 +4,14 @@ Cambios visibles para el usuario, más recientes primero. Para refactors interno
 
 ---
 
+## 1.48.5 — 21 de octubre de 2026 — Correcciones de precisión
+
+- **La dirección del viento muestra el punto cardinal más cercano.** Antes podía desviarse un punto: 359° aparecía como NNO en lugar de N.
+- **Altitud más fiable en teléfonos con barómetro.** Una sola altitud GPS errónea al inicio de una grabación ya no puede desplazar la altitud de toda la grabación.
+- Las insignias de grupos de puntos de paso eligen su color de forma coherente.
+
+---
+
 ## 1.48.4 — 20 de octubre de 2026 — Corrección del mapa
 
 - **«Ver en el mapa» desde la lista de puntos de paso se queda en el punto.** Con el seguimiento activado, la siguiente posición GPS devolvía el mapa a tu ubicación. Ahora el mapa se queda quieto; toca el botón de seguimiento para volver a tu posición.

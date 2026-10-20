@@ -4,6 +4,14 @@ Für Nutzer sichtbare Änderungen, neueste zuerst. Für internes Refactoring / r
 
 ---
 
+## 1.48.5 — 21. Oktober 2026 — Genauigkeitskorrekturen
+
+- **Die Windrichtung zeigt die nächstliegende Himmelsrichtung.** Bisher konnte sie um eine Richtung danebenliegen — 359° wurde als NNW statt N angezeigt.
+- **Zuverlässigere Höhe auf Geräten mit Barometer.** Ein einzelner falscher GPS-Höhenwert zu Beginn einer Aufzeichnung kann die Höhe der ganzen Aufzeichnung nicht mehr verschieben.
+- Wegpunkt-Cluster wählen ihre Farbe jetzt einheitlich.
+
+---
+
 ## 1.48.4 — 20. Oktober 2026 — Kartenkorrektur
 
 - **„Auf Karte anzeigen“ aus der Wegpunktliste bleibt beim Wegpunkt.** Bei eingeschaltetem „Folgen“ zog der nächste GPS-Fix die Karte sofort zurück zu deiner Position. Jetzt bleibt die Karte stehen — tippe auf die Folgen-Schaltfläche, um zu dir zurückzukehren.

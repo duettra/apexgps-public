@@ -4,6 +4,14 @@ Zmiany widoczne dla użytkownika, najnowsze u góry. Refaktory wewnętrzne / pod
 
 ---
 
+## 1.48.5 — 21 października 2026 — Poprawki dokładności
+
+- **Kierunek wiatru pokazuje najbliższy kierunek kompasu.** Wcześniej mógł być przesunięty o jeden kierunek — 359° wyświetlało się jako NNW zamiast N.
+- **Bardziej wiarygodna wysokość w telefonach z barometrem.** Jeden błędny odczyt wysokości GPS na początku nagrywania nie może już przesunąć wysokości całego nagrania.
+- Znaczniki grup punktów konsekwentnie wybierają swój kolor.
+
+---
+
 ## 1.48.4 — 20 października 2026 — Poprawka mapy
 
 - **„Pokaż na mapie” z listy punktów pozostaje na punkcie.** Przy włączonym śledzeniu kolejna pozycja GPS od razu przesuwała mapę z powrotem do Twojej lokalizacji. Teraz mapa zostaje na miejscu — dotknij przycisku śledzenia, aby wrócić do siebie.

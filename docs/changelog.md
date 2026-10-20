@@ -4,6 +4,14 @@ User-visible changes, newest first. For internal refactoring / version-bump-only
 
 ---
 
+## 1.48.5 — October 21, 2026 — Accuracy fixes
+
+- **Wind direction shows the nearest compass point.** It could be one point off before — 359° showed as NNW instead of N.
+- **More reliable elevation on phones with a barometer.** A single bad GPS altitude at the start of a recording can no longer shift the whole recording's elevation.
+- Waypoint cluster badges pick their colour consistently.
+
+---
+
 ## 1.48.4 — October 20, 2026 — Map fix
 
 - **"Show on Map" from the waypoint list stays on the waypoint.** With follow-me on, the next GPS fix used to pull the map straight back to your position. Now the map stays put — tap the follow-me button to return to yourself.

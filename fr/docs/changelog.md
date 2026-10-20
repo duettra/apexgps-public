@@ -4,6 +4,14 @@ Changements visibles par l\'utilisateur, plus récents en premier. Pour les refa
 
 ---
 
+## 1.48.5 — 21 octobre 2026 — Corrections de précision
+
+- **La direction du vent indique le point cardinal le plus proche.** Elle pouvait être décalée d'un cran — 359° s'affichait NNO au lieu de N.
+- **Altitude plus fiable sur les téléphones avec baromètre.** Une seule mauvaise altitude GPS au début d'un enregistrement ne peut plus décaler l'altitude de tout l'enregistrement.
+- Les pastilles de regroupement de points de passage choisissent leur couleur de façon cohérente.
+
+---
+
 ## 1.48.4 — 20 octobre 2026 — Correction de la carte
 
 - **« Afficher sur la carte » depuis la liste des points de passage reste sur le point.** Avec le suivi activé, la position GPS suivante ramenait aussitôt la carte sur vous. Désormais la carte ne bouge plus — touchez le bouton de suivi pour revenir à votre position.
