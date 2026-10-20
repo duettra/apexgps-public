@@ -4,6 +4,12 @@ Cambios visibles para el usuario, más recientes primero. Para refactors interno
 
 ---
 
+## 1.48.4 — 20 de octubre de 2026 — Corrección del mapa
+
+- **«Ver en el mapa» desde la lista de puntos de paso se queda en el punto.** Con el seguimiento activado, la siguiente posición GPS devolvía el mapa a tu ubicación. Ahora el mapa se queda quieto; toca el botón de seguimiento para volver a tu posición.
+
+---
+
 ## 1.48.3 — 20 de octubre de 2026 — Conoce Thermik
 
 - **Revive tus rutas en 3D.** Thermik, una app gratuita del mismo desarrollador, reproduce tus rutas a pie, en bici y tus vuelos en 3D sobre el relieve real: abre cualquier GPX que exportes desde ApexGPS. Un aviso único la presenta y también la encontrarás en Ajustes → Acerca de.

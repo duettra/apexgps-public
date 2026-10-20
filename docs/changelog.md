@@ -4,6 +4,12 @@ User-visible changes, newest first. For internal refactoring / version-bump-only
 
 ---
 
+## 1.48.4 — October 20, 2026 — Map fix
+
+- **"Show on Map" from the waypoint list stays on the waypoint.** With follow-me on, the next GPS fix used to pull the map straight back to your position. Now the map stays put — tap the follow-me button to return to yourself.
+
+---
+
 ## 1.48.3 — October 20, 2026 — Meet Thermik
 
 - **Relive your hikes in 3D.** Thermik, a free app from the same developer, replays your hikes, rides and flights in 3D over real terrain — open any GPX you export from ApexGPS. A one-time note introduces it, and you'll find it under Settings → About.

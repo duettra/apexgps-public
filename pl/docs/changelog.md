@@ -4,6 +4,12 @@ Zmiany widoczne dla użytkownika, najnowsze u góry. Refaktory wewnętrzne / pod
 
 ---
 
+## 1.48.4 — 20 października 2026 — Poprawka mapy
+
+- **„Pokaż na mapie” z listy punktów pozostaje na punkcie.** Przy włączonym śledzeniu kolejna pozycja GPS od razu przesuwała mapę z powrotem do Twojej lokalizacji. Teraz mapa zostaje na miejscu — dotknij przycisku śledzenia, aby wrócić do siebie.
+
+---
+
 ## 1.48.3 — 20 października 2026 — Poznaj Thermik
 
 - **Przeżyj swoje wędrówki w 3D.** Thermik, darmowa aplikacja tego samego twórcy, odtwarza wędrówki, przejażdżki i loty w 3D nad prawdziwym terenem — otwórz dowolny plik GPX wyeksportowany z ApexGPS. Jednorazowy komunikat ją przedstawia; znajdziesz ją też w Ustawienia → Informacje.

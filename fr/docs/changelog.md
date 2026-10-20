@@ -4,6 +4,12 @@ Changements visibles par l\'utilisateur, plus récents en premier. Pour les refa
 
 ---
 
+## 1.48.4 — 20 octobre 2026 — Correction de la carte
+
+- **« Afficher sur la carte » depuis la liste des points de passage reste sur le point.** Avec le suivi activé, la position GPS suivante ramenait aussitôt la carte sur vous. Désormais la carte ne bouge plus — touchez le bouton de suivi pour revenir à votre position.
+
+---
+
 ## 1.48.3 — 20 octobre 2026 — Découvrez Thermik
 
 - **Revivez vos randonnées en 3D.** Thermik, une application gratuite du même développeur, rejoue vos randonnées, sorties à vélo et vols en 3D sur un vrai relief — ouvrez n'importe quel GPX exporté depuis ApexGPS. Un message unique la présente ; vous la trouverez aussi dans Paramètres → À propos.

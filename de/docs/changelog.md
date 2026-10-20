@@ -4,6 +4,12 @@ Für Nutzer sichtbare Änderungen, neueste zuerst. Für internes Refactoring / r
 
 ---
 
+## 1.48.4 — 20. Oktober 2026 — Kartenkorrektur
+
+- **„Auf Karte anzeigen“ aus der Wegpunktliste bleibt beim Wegpunkt.** Bei eingeschaltetem „Folgen“ zog der nächste GPS-Fix die Karte sofort zurück zu deiner Position. Jetzt bleibt die Karte stehen — tippe auf die Folgen-Schaltfläche, um zu dir zurückzukehren.
+
+---
+
 ## 1.48.3 — 20. Oktober 2026 — Neu: Thermik
 
 - **Erlebe deine Wanderungen in 3D.** Thermik, eine kostenlose App vom selben Entwickler, zeigt deine Wanderungen, Radtouren und Flüge in 3D über echtem Gelände — öffne einfach jede GPX-Datei, die du aus ApexGPS exportierst. Ein einmaliger Hinweis stellt die App vor; du findest sie auch unter Einstellungen → Über.
