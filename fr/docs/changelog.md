@@ -4,6 +4,12 @@ Changements visibles par l\'utilisateur, plus récents en premier. Pour les refa
 
 ---
 
+## 1.48.3 — 20 octobre 2026 — Découvrez Thermik
+
+- **Revivez vos randonnées en 3D.** Thermik, une application gratuite du même développeur, rejoue vos randonnées, sorties à vélo et vols en 3D sur un vrai relief — ouvrez n'importe quel GPX exporté depuis ApexGPS. Un message unique la présente ; vous la trouverez aussi dans Paramètres → À propos.
+
+---
+
 ## 1.48.2 — 19 octobre 2026 — Corrections de l'enregistrement
 
 - **L'écran reste allumé pendant l'enregistrement.** Ouvrir une trace avec « Afficher sur la carte » pendant un enregistrement ou le suivi d'une trace désactivait le suivi : l'écran pouvait s'éteindre et le suivi était déverrouillé. Désormais, la carte se déplace simplement vers la trace — touchez le bouton de suivi pour revenir à votre position.

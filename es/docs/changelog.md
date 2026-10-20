@@ -4,6 +4,12 @@ Cambios visibles para el usuario, más recientes primero. Para refactors interno
 
 ---
 
+## 1.48.3 — 20 de octubre de 2026 — Conoce Thermik
+
+- **Revive tus rutas en 3D.** Thermik, una app gratuita del mismo desarrollador, reproduce tus rutas a pie, en bici y tus vuelos en 3D sobre el relieve real: abre cualquier GPX que exportes desde ApexGPS. Un aviso único la presenta y también la encontrarás en Ajustes → Acerca de.
+
+---
+
 ## 1.48.2 — 19 de octubre de 2026 — Correcciones de la grabación
 
 - **La pantalla sigue encendida mientras grabas.** Abrir un track con «Ver en el mapa» durante una grabación o al seguir un track desactivaba el seguimiento, así que la pantalla podía apagarse y el seguimiento quedaba desbloqueado. Ahora el mapa solo se desplaza al track; toca el botón de seguimiento para volver a tu posición.

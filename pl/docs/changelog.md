@@ -4,6 +4,12 @@ Zmiany widoczne dla użytkownika, najnowsze u góry. Refaktory wewnętrzne / pod
 
 ---
 
+## 1.48.3 — 20 października 2026 — Poznaj Thermik
+
+- **Przeżyj swoje wędrówki w 3D.** Thermik, darmowa aplikacja tego samego twórcy, odtwarza wędrówki, przejażdżki i loty w 3D nad prawdziwym terenem — otwórz dowolny plik GPX wyeksportowany z ApexGPS. Jednorazowy komunikat ją przedstawia; znajdziesz ją też w Ustawienia → Informacje.
+
+---
+
 ## 1.48.2 — 19 października 2026 — Poprawki nagrywania
 
 - **Ekran pozostaje włączony podczas nagrywania.** Otwarcie trasy przez „Pokaż na mapie” w trakcie nagrywania lub podążania za trasą wyłączało śledzenie — ekran mógł zgasnąć, a śledzenie było odblokowane. Teraz mapa tylko przesuwa się do trasy; dotknij przycisku śledzenia, aby wrócić do swojej pozycji.

@@ -4,6 +4,12 @@ User-visible changes, newest first. For internal refactoring / version-bump-only
 
 ---
 
+## 1.48.3 — October 20, 2026 — Meet Thermik
+
+- **Relive your hikes in 3D.** Thermik, a free app from the same developer, replays your hikes, rides and flights in 3D over real terrain — open any GPX you export from ApexGPS. A one-time note introduces it, and you'll find it under Settings → About.
+
+---
+
 ## 1.48.2 — October 19, 2026 — Recording fixes
 
 - **The screen stays on while you record.** Opening a track with "Show on Map" during a recording or while following a track used to switch follow-me off, so the screen could go dark and follow-me was unlocked. Now the map just moves to the track — tap the follow-me button to come back to your position.
